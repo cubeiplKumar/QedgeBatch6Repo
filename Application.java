@@ -60,4 +60,20 @@ class Test {
         System.out.println(
             "In method m2 came from method m1");
     }
+	#feature202 branch new method added by Developer Vivek on  Oct2023
+	public void method(int n) 
+    { 
+        if (n % 2 == 0) 
+            System.out.println("geeksforgeeks"); 
+        else
+            System.out.println("GEEKSFORGEEKS"); 
+    } 
+  
+    public static void main(String[] args) 
+    { 
+        TempI in1 = new Temp(); 
+        TempI in2 = new Temp(); 
+        in1.method(4); 
+        in2.method(3); 
+    } 
 }
